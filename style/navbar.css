@@ -1,0 +1,48 @@
+body{
+    background-color: white;
+     
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    padding: 10px 0; 
+    z-index: 100; 
+  }
+  
+#ul{
+    display: flex;
+}
+
+#ul li{
+    list-style: none;
+    letter-spacing: 5px;
+    display: block;
+   
+
+
+
+}
+
+#ul li a{
+    color: black;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:500;
+    color:black;
+    display:block;
+    margin-left: 300px;
+ 
+    
+}
+
+#ul li a:hover{
+    display: grid;
+    background: rgb(196, 188, 188); 
+    border: 1px solid rgb(196, 188, 188); 
+    border-radius: 10px;
+    padding: 8px;
+
+}
